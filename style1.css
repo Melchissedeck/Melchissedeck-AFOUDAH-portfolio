@@ -41,14 +41,14 @@ nav ul{
     display: flex;/*Pour aligner les éléments de la liste*/
     list-style-type: none;/*Permet de retirer les points noirs*/
 }
-nav ul li{
+nav ul li a{
     margin-left: 20px;/*Pour créer un espace entre les éléments de la liste*/
     cursor:pointer;/*Pour indiquer à l'utilisateur qu'il faut cliquer*/
     border-bottom: 1px solid #000;
     color: #fff;
 }
 /* Pseudo classe permettant de tranformer la couleur du border-bottom lorsque le curseur est au dessus des éléments de la liste */
-nav ul li:hover{
+nav ul li a:hover{
     border-bottom-color: #fff;
 }
 
